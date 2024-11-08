@@ -1,0 +1,1 @@
+alert("Hei! Velkommen til min nettside");

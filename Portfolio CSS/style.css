@@ -1,0 +1,134 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+::-webkit-scrollbar{
+
+    width: 10px;   
+    
+}
+
+::-webkit-scrollbar-track{
+
+    background-color: #ccc;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background: #33333365;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background: #11111165;
+    border-radius: 10px;
+
+}
+
+header{
+
+    background-color: #242424;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav{
+
+    background-color: #535353;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav a{
+
+    color: #fff;
+    text-decoration: underline;    
+    margin: 0 10px;
+    
+}
+
+section{
+
+    padding: 50px;
+    text-align: center;
+
+}
+
+footer{
+
+    background-color: #33333365;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+.button{
+
+    position: relative;
+    border-radius: 25px;
+    background-color: White;
+    border: 5px solid #ccc;
+    color: black;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 20px;
+
+    text-align: right;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+
+}
+
+.button:hover{
+
+    border: 5px solid #33333365;
+
+}
+
+.button img{
+
+    border-radius: 25px;
+    width: 400px;
+    height: auto;
+
+}
+
+.top{
+
+    position: absolute;
+    top: 8px;
+    left: 25%;
+    font-size: 35px;
+
+}
+
+.button_text{
+
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    font-size: 20px;
+    text-align: left;
+
+}
