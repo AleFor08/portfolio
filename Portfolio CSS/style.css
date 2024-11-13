@@ -132,3 +132,13 @@ footer{
     text-align: left;
 
 }
+
+div.gallery_blender {
+    float: left;
+}
+
+div.gallery_blender img {
+    width: 75%;
+    height: auto;
+    border-radius: 25px;
+}
