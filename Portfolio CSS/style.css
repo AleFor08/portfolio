@@ -98,6 +98,8 @@ footer{
     flex-direction: row;
     font-size: 25px;
 
+    transition-duration: 0.4s;
+
 }
 
 .button:hover{
@@ -111,34 +113,27 @@ footer{
     border-radius: 25px;
     width: 400px;
     height: auto;
-
-}
-
-.top{
-
-    position: absolute;
-    top: 8px;
-    left: 25%;
-    font-size: 35px;
+    float: right;
 
 }
 
 .button_text{
 
-    position: absolute;
-    bottom: 5%;
-    left: 25%;
-    font-size: 20px;
+    position: relative;
+    left: 1%;
+    font-size: 30px;
     text-align: left;
+    word-wrap: break-word;
+    width: 1000px;
 
 }
 
 div.gallery_blender {
-    float: left;
+    float: none;
 }
 
 div.gallery_blender img {
-    width: 75%;
+    width: 65%;
     height: auto;
     border-radius: 25px;
 }
